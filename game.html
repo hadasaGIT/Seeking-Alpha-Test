@@ -1,0 +1,29 @@
+<head>
+  <meta charset="UTF-8" />
+  <title>The Game of Life</title>
+  <link rel="stylesheet" href="game.css" />
+</head>
+<body>
+  <div class="flex">
+    <div style="width: 19vw">
+      <div>
+        <h1 class="title">The Game Of Life</h1>
+        <h2>
+          Click on cells to set them alive and draw patterns. When you're ready,
+          click the 'Start' button.<br />
+          Click 'Clear' to clear the board.<br />To randomly select a game board
+          click 'Random'
+        </h2>
+      </div>
+      <div class="controls">
+        <button id="start" class="game-button green"><span>Start</span></button>
+        <button id="clear" class="game-button red"><span>Clear</span></button>
+        <button id="random" class="game-button orange">
+          <span>Random</span>
+        </button>
+      </div>
+    </div>
+    <div id="gridContainer"></div>
+  </div>
+  <script src="game.js"></script>
+</body>
